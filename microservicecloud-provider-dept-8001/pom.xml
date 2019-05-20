@@ -6,6 +6,7 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>microservicecloud-provider-dept-8001</artifactId>
+  <description>部门微服务提供者</description>
   <dependencies>
 		<!-- 引入自己定义的api通用包，可以使用Dept部门Entity -->
 		<dependency>

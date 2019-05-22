@@ -8,7 +8,7 @@ import com.xxx.springcloud.entities.Dept;
 
 import feign.hystrix.FallbackFactory;
 
-@Component // 不要忘记添加，不要忘记添加
+@Component 
 public class DeptClientServiceFallbackFactory implements FallbackFactory<DeptClientService>
 {
 	@Override
